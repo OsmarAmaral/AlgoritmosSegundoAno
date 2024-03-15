@@ -1,0 +1,32 @@
+  /* Reset CSS */ 
+   
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+ }
+ 
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  section {
+    padding: 3rem 0 4rem 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+
+  .gray{
+    background-color: whitesmoke;
+  }
