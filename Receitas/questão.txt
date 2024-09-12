@@ -1,0 +1,41 @@
+Claro! Vamos detalhar o desafio da página de receitas:
+
+### Desafio: Página de Receitas
+
+**Objetivo:** Criar uma página de receitas que exiba várias receitas culinárias de forma visualmente atraente e organizada, utilizando apenas HTML e CSS.
+
+### Requisitos:
+
+1. **Estrutura em HTML:**
+   - **Cabeçalho (Header):** Inclua o título do site, um logo fictício e um menu de navegação com links para diferentes seções, como "Início", "Receitas", "Sobre", "Contato".
+   - **Seção Principal de Receitas:**
+     - **Lista de Receitas:** Uma lista ou grade de receitas, cada uma contendo:
+       - **Imagem da Receita:** Uma imagem atraente do prato.
+       - **Título da Receita:** O nome do prato.
+       - **Breve Descrição:** Uma breve descrição ou introdução sobre a receita.
+       - **Link para Detalhes:** Um link ou botão "Ver Receita" que leva a uma página detalhada ou modal (pode ser simulado com apenas HTML e CSS).
+   - **Rodapé (Footer):** Informações de contato, links para redes sociais e outros links importantes.
+
+2. **Estilização com CSS:**
+   - **Layout da Página:** Utilize CSS Grid ou Flexbox para criar um layout de grade para as receitas. Isso permitirá que as receitas se ajustem bem em diferentes tamanhos de tela.
+   - **Cartões de Receita:** Estilize cada receita em um cartão que inclui a imagem, título e descrição. Utilize bordas, sombras e espaçamento para destacar os cartões.
+   - **Tipografia e Cores:** Escolha uma tipografia que seja legível e adequada ao tema culinário. Use uma paleta de cores que complemente as imagens e crie uma aparência convidativa.
+   - **Botões e Links:** Estilize os botões e links para que se destaquem e sejam facilmente clicáveis. Adicione efeitos de hover para melhorar a interatividade.
+
+3. **Extras (opcional):**
+   - **Detalhes da Receita:** Criar uma página ou modal fictícia para exibir os detalhes completos da receita, incluindo ingredientes e instruções. Isso pode ser feito com HTML e CSS apenas, usando uma estrutura de navegação por âncoras ou usando seções ocultas e visíveis.
+   - **Categorias de Receita:** Adicionar filtros ou categorias (como "Entrada", "Prato Principal", "Sobremesa") na barra lateral ou no topo da lista de receitas.
+   - **Animações:** Adicionar animações sutis, como transições suaves para os botões e efeitos de hover nos cartões de receita.
+
+### Dicas:
+
+- Utilize HTML semântico para estruturar a página de forma clara, como `<section>`, `<article>`, `<header>`, e `<footer>`.
+- Use `display: grid` para criar um layout de grid responsivo para as receitas. Ajuste o número de colunas com media queries conforme o tamanho da tela.
+- Para a estilização dos cartões de receita, use propriedades como `box-shadow`, `border-radius`, e `padding` para criar um design visualmente agradável.
+- A responsividade pode ser alcançada com `@media` queries, ajustando a disposição dos cartões de receita e outros elementos em diferentes tamanhos de tela.
+
+### Entrega:
+
+- Suba o projeto em um repositório no GitHub ou em uma plataforma de hospedagem gratuita (como GitHub Pages) para visualização.
+
+Este desafio permite praticar a criação de um layout funcional e atraente, adequado para um site de receitas, e foca na apresentação visual e organização do conteúdo. Boa sorte!

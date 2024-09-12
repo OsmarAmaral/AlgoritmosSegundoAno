@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exerciseThree</title>
+</head>
+<body>
+
+    <script>      
+        var n1 = prompt("Digite N1: ")
+        var n2 = prompt("Digite N2: ")
+        var n3 = prompt("Digite N3: ")
+        function maiorDosTres() {
+    var n = Array.prototype.sort.call(arguments);
+    alert( "O maior número é: " + n[n.length - 1] + " e o menor é: " + n[0]);
+}
+    maiorDosTres(n1, n2, n3);
+    </script>
+</body>
+</html>

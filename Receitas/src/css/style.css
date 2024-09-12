@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fff8dd;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'courier new';
+  background-color: #ffdb58;
+}
+
+h1 {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: 'Brush Script MT', cursive;
+  animation: tituloCores 3s infinite;
+}
+
+/*@keyframes tituloCores {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: purple;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: brown;
+  }
+}*/
+
+a {
+  text-decoration: none;
+}
+
+.menu-links {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.menu-links:hover {
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#inicio {
+  height: 100vh;
+  background-image: url('/src/img/fundoDeMadeira.jpeg');
+  background-size: cover;
+  /*background-color: #009246;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#menu-interativo {
+  /*border: 1px solid black;*/
+  margin: 15px;
+  margin-bottom: 30px;
+  height: 90%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-interativos {
+  margin: 10px;
+  font-family: 'courier new';
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  transition: 1s;
+  font-size: 20px;
+}
+
+.links-interativos:hover {
+  transform: scale(1.5);
+  color: #ffcc33;
+}
+
+#cartazes{
+  /*border: 1px solid black;*/
+  margin: 15px;
+  margin-bottom: 30px;
+  height: 90%;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#bloco01{
+  animation: mudarFundo 12s infinite;
+  background-size: cover;
+}
+
+@keyframes mudarFundo {
+  0% {
+    background-image: url('/src/img/sorveteDeMorango.jpeg');
+    border: 2px solid pink;
+  }
+  50% {
+    background-image: url('/src/img/pizza.jpeg');
+   border: 2px solid green;
+  }
+  100% {
+    background-image: url('/src/img/suco.jpeg');
+    border: 2px solid orange;
+  }
+}
+
+#bloco02{
+  animation: mudarFundo2 12s infinite;
+  background-size: cover;
+}
+
+@keyframes mudarFundo2 {
+  0% {
+    background-image: url('/src/img/suco.jpeg');
+    border: 2px solid orange;
+  }
+  50% {
+    background-image: url('/src/img/sorveteDeMorango.jpeg');
+    border: 2px solid pink;
+  }
+  100% {
+    background-image: url('/src/img/pizza.jpeg');
+    border: 2px solid green;
+  }
+}
+
+#bloco03{
+  animation: mudarFundo3 12s infinite;
+  background-size: cover;
+  box-shadow: 10px, 10px, 5px, 0px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes mudarFundo3 {
+  0% {
+    background-image: url('/src/img/pizza.jpeg');
+    box-shadow: 10px, 10px, 5px, 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid green;
+  }
+  50% {
+    background-image: url('/src/img/suco.jpeg');
+    box-shadow: 10px, 10px, 5px, 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid orange;
+  }
+  100% {
+    background-image: url('/src/img/sorveteDeMorango.jpeg');
+    box-shadow: 10px, 10px, 5px, 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid pink;
+  }
+}
+
+#bloco-01-02 {
+  display: flex;
+  flex-direction: column;
+}
+
+#bloco01, #bloco02 , #bloco03 {
+  margin: 5px;
+}
+
+#bloco01, #bloco02 {
+  height: 43vh;
+  width: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.imagen-01-02, .imagen-03 {
+  border-radius: 20px;
+  border: 2px solid brown;
+}
+
+.imagen-01-02 {
+ height: 100%; 
+ width: 100%;
+}
+
+#bloco03 {
+  height: 97.5%;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.imagen-03 {
+  height: 100%;
+  width: 100%;
+}
+
+#secaoPrincipalDeReceitas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff8dc;
+}
+
+.subTitulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 85%;
+  margin: 20px;
+}
+
+#tituloh2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+}
+
+.receitas{
+  display: flex;
+  flex-direction: row;
+  font-family: 'courier new';
+  margin-top: 20px;
+  margin: 20px;
+  border: 2px solid brown;
+  box-shadow: 10px 10px 5px 0px rgba( 0, 0, 0, 0.5);
+  width: 85%;
+}
+
+.receitas:hover{
+  transform: scale(1.05);
+  box-shadow: 15px 15px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagens{
+  height: 150px;
+  width: 150px;
+}
+
+.h3pa {
+  display: flex;
+  flex-direction: column;
+}
+
+.h3p {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.btnVerReceita {
+  color: green;
+  font-weight: bold;
+}
+
+.breveDescricao {
+  margin-top: 5px;
+  color: brown;
+  font-weight: bold;
+}
+
+#tituloBrigadeiro {
+  animation: efeitoBrigadeiro 2s infinite;
+  transition: 0.3s;
+}
+
+#tituloBrigadeiro:hover{
+  border-left: 2px solid #b8e986;
+}
+
+#tituloFeijoada {
+  animation: efeitoFeijoada 2s infinite;
+}
+
+#tituloFeijoada:hover {
+  border-left: 2px solid #990000;
+}
+
+#tituloPaoDeQueijo {
+  animation: efeitoPaoDeQueijo 2s infinite;
+}
+
+#tituloPaoDeQueijo:hover{
+  border-left: 2px solid #b8e986;
+}
+
+footer {
+  /*background-color: #ffdb58;*/
+  background-color: #d2b48c;
+  background-image: url('/src/img/campoDeTrigo.jpeg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin-top: 20px;
+}
+
+#caixaSociaMidia {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.menu-socialMidia {
+  font-size: 25px;
+  margin: 10px;
+}
+
+#tell {
+  margin: 10px;
+  font-family: 'courier new';
+}
+
+#githubI {
+  color: black;
+}
+
+#whatsappI {
+  color: green;
+}
+
+#instagramI {
+  color: purple;
+}
+
+#facebookI {
+  color: blue;
+}
+
+#tiktokI {
+  color: #ff007f;
+}
+
+
+@keyframes efeitoBrigadeiro {
+  0% {
+    color: brown;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: purple;
+  }
+  75% {
+  color: white;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+@keyframes efeitoFeijoada {
+  0% {
+    color: #4e3a2a;
+  }
+  25% {
+    color: #d5a6a7; 
+  }
+  50% {
+    color: #4b6f3a;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+  color: #6c6e6f
+  }
+}
+
+@keyframes efeitoPaoDeQueijo {
+  0% {
+    color: #ffd700;
+  }
+  25% {
+    color: #ffdb58;
+  }
+  50% {
+    color: #f5b900;
+  }
+  75% {
+    color: #ffd700;
+  }
+  100% {
+    color: #ffdb58;
+  }
+}

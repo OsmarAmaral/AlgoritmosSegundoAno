@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exerciseSix</title>
+</head>
+<body>
+    <script>
+
+        function calcular() {
+            const inputElement = document.getElementById('altura')
+            const altura = inputElement.value
+            const inputElement2 = document.getElementById('peso')
+            const peso = inputElement2.value
+            alert(peso / (altura*altura))
+        }
+
+        function inputDisplay(value) {
+            
+        }
+
+    </script>
+
+    <style>
+        #caixa {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 230px;
+            border: 1px solid black;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        input, button {
+            width: 150px;
+            height: 20px;
+            margin: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+
+        input {
+            background-color: lightgray;
+            border: none;
+            padding: 5px;
+            text-align: left;
+            outline: 0;
+        }
+
+        button {
+            width: 50px;
+            background-color: green;
+            margin-left: 110px;
+        }
+
+    </style>
+
+    <div id="caixa">
+        <h3>Imc</h3>
+        <input type="number" placeholder="Altura" id="altura">
+        <input type="number" placeholder="Peso" id="peso">
+        <button onclick="calcular()">Calc</button>
+        <input type="text" id="tela" disabled placeholder="resultado">
+    </div>
+</body>
+</html>

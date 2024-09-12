@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exerciseEight</title>
+</head>
+<body>
+    <script>
+       
+       let x = 0
+       let y = 1
+       let pares = 0
+
+       console.log(x)
+       console.log(y)
+
+       for(let i=0; i < 23; i++){
+
+        z = x + y
+        console.log(x+y)
+        if( x + y / 2){
+            pares += x + y
+        }
+        x = y
+        y = z
+       }
+
+       console.log('Soma Dos Pares '+pares)
+
+    </script>
+</body>
+</html>
